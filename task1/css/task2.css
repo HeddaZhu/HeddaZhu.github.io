@@ -1,0 +1,117 @@
+body{
+	padding: 0;
+    margin: 0;
+	background-color: #DFDFDF;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+
+header{
+	background-color: #000;
+	height: 55px;
+}
+header ul{
+	float: right;
+
+}
+header ul li{
+	float: left;
+	margin: 8px 10px 0 0;
+}
+header ul li a {
+	float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+article,aside{
+	background-color: #FFF;
+	margin: 25px;
+	padding: 20px;
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	letter-spacing: 1px;
+	line-height:150%;
+}
+h1{
+	font-size: 150%;
+	font-weight: bold;
+}
+h2{
+	font-size: 120%;
+	color: #646464;
+}
+h3{
+	font-size: 90%;
+	color: #57685E;
+	font-weight:lighter;
+}
+p{
+	font-size: 100%;
+	text-indent:2em;
+}
+ul{
+	list-style:none;
+}
+figure{
+	border: 1px solid #CBCBCB;
+	height: 230px;
+	width: 230px;
+	text-align: center;
+}
+article table{
+	width: 100%;
+	border-collapse:collapse;
+}
+article table th,td{
+	text-align: left;
+	border: thin solid #DBDBDB;
+}
+article table th{
+	background: #333333;
+	color: white;
+}
+article table td{
+	font-size: 80%;
+}
+article table tfoot td{
+	background: #DBDBDB;
+	font-size: 100%;
+	font-weight: bold;
+}
+aside h2{
+	border-left: 4px solid #CCCCCC;
+}
+aside form table{
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 8px;
+	font-size: 90%;
+}
+aside form table td{
+	border:none;
+}
+td.tbRight{
+	text-align: right;
+	width: 30%;
+}
+td.tbHint{
+	color: #676767;
+	font-size: 90%;
+}
+input[type='submit']{
+	border-radius: 10px;
+	background: #3355D0;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 120%;
+	font-weight: bold;
+}
+footer{
+	background-color: #000;
+	height: 55px;
+	color: #FFF;
+	text-align: center;
+	line-height: 50px;
+}
+
