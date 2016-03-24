@@ -1,0 +1,55 @@
+body{
+	padding: 0;
+    margin: 0;
+	font-family: "SimSun","SimHei",Arial,sans-serif;
+	font-size: medium;
+}
+img{
+	width: 80px;
+	height: 80px;
+}
+#main{
+	background-color: #EEE;
+	margin: 20px;
+	border: 1px solid #999; 
+	padding: 20px;
+	overflow: auto;
+}
+#header{
+	background-color:white; 
+	width: 160px;
+	border: 1px solid #999; 
+	padding: 20px;
+	overflow: auto;
+	float: left;
+}
+#header img{
+	float: left;
+}
+#header span{
+	font-weight: bold;
+	font-size: 0.9em;
+}
+#introduction{
+	background-color:white; 
+	border: 1px solid #999; 
+	padding: 20px;
+	margin: 0px 142px 0px 222px;
+	line-height: 1.3;
+}
+#introduction p{
+	
+	text-indent:2em;
+}
+#member{
+	float: right;
+	background-color:white; 
+	border: 1px solid #999; 
+	width: 120px;
+
+}
+#member img{
+	border: 1px solid #999;
+	margin: 20px;
+	display: block;
+}
