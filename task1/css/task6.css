@@ -1,0 +1,354 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #5D5D5D;
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu; 
+	font-size: 12px;
+}
+#newspaper{
+	position: relative;
+	margin: 0px auto;
+	width: 980px;
+	height: 1386px;
+	background-color: #fff;
+	
+}
+header{
+	width: 892px;
+	height:61px;
+	margin: 0px 44px;
+	border-bottom: 2px solid #938e8c;
+	color: #d45d5c;
+	text-align: right;
+	line-height: 100px;
+	text-indent: 5px;
+	font-family:SimHei; 
+	font-size: 12px;
+}
+header a{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	width: 110px;
+	height:61px;
+	background-color: #d45d5c;
+	text-align: left;
+
+
+}
+section{
+	margin: 30px 44px;
+}
+#section1 .right{
+	float: right;
+	width: 203px;
+	height: 198px;
+	border-top: 2px solid #cc8091; 
+}
+#section1 .p1{
+	font-size: 24px;
+	color: #000;
+	text-decoration: underline;
+	line-height: 40px;
+}
+#section1 .p2{
+	font-size: 12px;
+	color: #676767;
+	font-family: KaiTi;
+	line-height: 10px;
+}
+#section1 .p3{
+	font-size: 116px;
+	color: #75b86b;
+	font-style: italic;
+	margin: 0px 0px;
+	line-height: 1.1em;
+}
+#section1 .p4{
+	float: left;
+	font-size: 55px;
+	color: #cc8091;
+
+}
+#cssText{
+	margin: 15px 0px 0px 80px;
+	color: #cc8091;
+}
+#css_p1{
+	font-size: 21px;
+}
+#css_p2{
+	font-size: 12px;
+}
+#section1 .left{
+	width: 641px;
+	height: 301px;
+	background: url(../img/task6_1.jpg);
+}
+#picture_left{
+	float: left;
+	width: 191px;
+	height: 301px;
+	background-color: #75b86b;
+	opacity: 0.5;
+}
+#picture_right{
+	margin-left:450px; 
+	width: 191px;
+	height: 301px;
+	background-color:#d45d5c;
+	opacity: 0.5;
+}
+
+#section2 div{
+	width: 200px;
+	float: left;
+	margin-right: 20px; 
+}
+#section2 h2{
+	font-size: 16px;
+	font-weight:bold;
+	text-decoration: underline;
+	line-height: 40px;
+}
+#what h2{
+	color: #418c59;
+}
+#when h2{
+	color: #d2994f;
+}
+#how h2{
+	color: #cc7680;
+}
+#section2 p{
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 1px;
+}
+#what p{	
+	color: #767777;
+	font-family: SimSun;
+}
+#when p{
+	color:#231815;	
+	opacity:0.7;
+}
+#how p{
+	color:#231815 ;
+	opacity: 0.7;
+	letter-spacing: 2px;
+}
+#how span{
+	color: #cd4a48;
+	font-style: italic;
+}
+#section3{
+	position: relative;
+	padding:44px 0px; 
+	clear: both;
+}
+#the{
+	font-size: 72px;
+	color: #f5e327;
+	font-family: SimHei;
+	font-style: italic;
+	font-weight: bold;
+}
+#section3 .left{
+	float: left;
+	width: 415px;
+}
+#section3 .right{
+	margin: 0px 0px 0px 434px;
+	width: 458px;
+}
+#section3 .left h1{
+	font-family:SimHei;
+	font-size: 42px;
+	font-weight:bold;
+	color: #11456b;  
+}
+#section3 .left h2{
+	font-size: 33px;
+	font-weight: bold;
+	font-family: SimHei;
+	color: #11456b;
+	padding:16px 0px 10px 0px; 
+	border-bottom: 2px solid black;
+}
+#middle{
+	line-height: 16px;
+}
+#textQian{
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+    margin-right:5px;
+    line-height: 70px;
+}
+#section3 .left p{
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+	font-family:SimSun; 
+	letter-spacing: 2px;
+	display: block;
+}
+#section3 .left p.pMiddle{
+	text-indent: 2em;
+}
+#section3 .left img{
+	float: right;
+	margin: 20px 0px 20px 20px;
+}
+#section3 .left .content{
+	margin:20px 0px;
+}
+#section3 .right{
+	width: 459px;
+}
+#top{
+	position: relative;
+	background: url(../img/task6_3.jpg);
+	width: 458px;
+	height: 275px;
+}
+#top div{
+	position: absolute;
+	bottom: 0px;
+	width: 458px;
+	height: 61px;
+	background: rgba(0,0,0,0.4);
+}
+#top div p{
+	margin: 8.5px 0px 8.5px 30px;
+	border-left: 3px solid #72b16a;
+	padding: 4.5px 0px 4.5px 10px;
+}
+#top div p span:first-child{
+	font-size: 26px;
+	color: #fff;
+}
+#top div p span:last-child{
+	font-style: italic;
+	font-size: 15px;
+	color: #72b16a;
+}
+#bottom{
+	position:absolute;
+	margin-top: 20px;
+	width: 459px;
+	height: 318px;
+	background-color: #EEEED6;
+}
+#bottom p{
+	margin: 20px 30px;
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: SimSun;
+	line-height: 20px;
+	text-align: left;
+}
+#bottom p span:first-child{
+	float: right;
+	font-size:12px;
+	color: #5a5b5b;
+	font-family: SimSun;
+	line-height: 20px;
+	font-style: italic;
+}
+#bottom p span:last-child{
+	position: relative;
+	top:-10px;
+	margin-right: 5px; 
+	border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid rgb(16, 69, 107);
+}
+#bottom div.left{
+	position: absolute;
+	bottom: 0px;
+	width: 240px;
+	height: 100px;
+	background-color: #d45d5c;
+	padding:30px 10px;
+	color: #fff;
+}
+#bottom div.left span{
+	float: left;
+	font-size: 110px;
+	height: 86px;
+	line-height: 86px;
+	padding: 0px 5px 0px 0px;
+	border-right: 2px solid #fff;
+}
+#bottom div.left div{
+	margin-left: 75px;
+}
+#bottom div.left div p{
+	margin: 0px;
+	font-family: SimHei;
+	color: #fff;
+	letter-spacing: 0px;
+}
+#bottom div.left div p.p1{
+	font-size: 21px;
+	font-style: italic;
+	line-height: 24px;
+}
+#bottom div.left div p.p2{
+	font-size: 12px;
+}
+#bottom div.right{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width:189px;
+	height: 160px;
+	padding-left: 10px;
+	margin: 0px;
+}
+#bottom div.right p{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: SimHei;
+	font-style: italic;
+	line-height: 16px;
+	margin: 0px;
+}
+#bottom div.right p.p1{
+	display: block;
+	margin-top:16px; 
+	text-indent: 3em;
+}
+#bottom div.right span{
+	font-size: 72px;
+	color: #d45d5c;
+	font-family:SimHei;
+}
+#bottom div.right span:first-child{
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: -25px;
+}
+#bottom div.right span:nth-child(2){
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: -20px;
+}
+footer{
+	position: absolute;
+	margin: 0px 44px;
+	bottom: 0px;
+	width: 892px;
+	height:61px;
+	border-top: 1px solid #938e8c;
+	color: #d45d5c;
+	text-align: right;
+	font-family:SimHei; 
+	font-size: 12px;
+}
