@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+body{
+    background: #fff;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体","sans-serif";
+    font-size: small;
+}
+div{
+	display: block;
+}
+div.calendar{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-270px;
+	margin-top:-184px;
+	width: 538px;
+	height: 366px;
+    line-height: 1.54;
+    word-wrap: break-word;
+    word-break: break-word;
+    border: 2px solid #6cd3fb;
+    border-right: 0;
+}
+div.calendar-left{
+	padding: 10px;
+    /*width: 385px;*/ 
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    /*z-index: 1;*/
+}
+.calendar-select{
+	position:relative;
+	padding:10px;
+	border-bottom:#d0f7fd solid 1px;
+}
+.select-year {
+    width: 30%;
+    float: left;
+}
+.select-month {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+.select-month a {
+    text-align: center;
+    color: #6cd3fb;
+    text-decoration: none;
+}
+.calendar-select select {
+    background-color: #fff;
+    border: 1px solid #dce4ec;
+    /*height: 20%;
+    font-size: 1.5em;*/
+}
+.select-year select{
+    width: 100%;
+}
+.select-today {
+    width: 20%;
+    border: 1px solid #f5f5f5;
+    margin-left: 15px;
+    color: #b7b7b7;
+    background: #ffffff;
+}
+.select-today:hover{
+	border:1px solid #6cd3fb;
+}
+.calendar-table{
+	position:relative;
+	width:100%;
+	height:86%;
+}
+.content-table{
+    width: 100%;
+    height:100%;
+    text-align: center;
+}
+.content-table .content-table-head{
+	border-bottom: 1px solid #e3e4e6;
+}
+.content-table .content-table-head-weekend{
+	color: #e02d2d;
+}
+.content-table tr {
+    width: 100%;
+
+}
+.content-table tr th {
+    width: 14.2%;
+    font-size: 1.5;
+
+}
+.calendar-right {
+	position: relative;
+    width: 25%;
+    height: 100%;
+    background:#6cd3fb;
+    margin-left:75%; 
+    text-align: center;
+}
+.calendar-right p {
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.calendar-right p.calendar-right-day {
+    width: 60%;
+    height: 20%;
+    margin:10px auto ;
+    padding: 0;
+    text-align: center;
+    background: #FB0;
+    font-size: 50px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.1),-1px 2px 5px rgba(0,0,0,.1);
+}
+.calendar-right p.calendar-right-lunar{
+	margin: 0 5px;
+	padding:5px; 
+	/*border-bottom: 2px solid #fff;*/
+	font-size: 90%;
+}
+.content-table tr td a {
+    position: relative;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    margin: auto;
+}
+.content-table tr td a span.table-solar-date{
+	 display: block;
+	 height: 22px;
+	 line-height: 1em;
+	 margin-top:5px; 
+}
+.content-table tr td a span.table-lunar-date,span.table-lunar-term{
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	font-size: 12px;
+	color: #999;
+	line-height: 1.5em;
+	width: 100%;
+	text-align: center;
+}
+.content-table tr td.calendar-lastMonthDays a span.table-lunar-date,.content-table tr td.calendar-nextMonthDays a span.table-lunar-date{
+	color: #bfbfbf;
+}
+.content-table tr td.calendar-tdcurrToday a span.table-lunar-date{
+	color: #fff;
+}
+.content-table tr td a span.table-lunar-term{
+	color: red;
+}
+.content-table tr td.calendar-lastMonthDays a span.table-lunar-term,.content-table tr td.calendar-nextMonthDays a span.table-lunar-term{
+	color: #999;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.content-table tr .calendar-currToday, .calendar-tdcurrToday{
+    background: #FFBB00;
+    color: #FFFFFF;
+}
+.content-table tr td a:hover{
+	border:2px solid #FFBB00;
+	cursor:pointer;
+}
+.content-table tr td .calendar-aclick{
+	border:2px solid #FFBB00;
+}
+.calendar-right-date span {
+    margin-left: 5px;
+}
+.calendar-right div.calendar-right-almanac{
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #fff;
+    padding-top: 10px;
+    line-height: 18px;
+    height: 150px;
+}
+div.calendar-right-almanac p i{
+	font: 24px/30px 'Microsoft Yahei';
+    text-shadow: 2px 2px 1px rgba(0,0,0,.1);
+    text-align: center;
+    color: #fff;
+}
+div.calendar-right-almanac p{
+	width: 50%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}

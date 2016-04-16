@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>万年历</title>
+	<link rel="stylesheet" type="text/css" href="./css/calendar.css">
+	<script type="text/javascript" src="./js/solarToLunar.js"></script>
+	<script type="text/javascript" src="./js/calendar.js"></script>
+	<script type="text/javascript" src="./js/festivals.js"></script>
+</head>
+<body>
+	<div class="calendar">
+		<div class="calendar-left">
+			<div class="calendar-select">
+				<div class="select-year"></div>
+				<div class="select-month">
+					<a class="month-previous" href="javascript:;">&lt; </a>
+					<a class="month-next" href="javascript:;"> &gt;</a>
+				</div>
+				<input type="button" class="select-today" value="返回今天"/>
+			</div>
+			<div class="calendar-table">
+				<table  class="content-table" cellspacing="0" cellpadding="0" >
+					<thead class="content-table-head">
+						<tr>
+							<th>一</th>
+							<th>二</th>
+							<th>三</th>
+							<th>四</th>
+							<th>五</th>
+							<th class="content-table-head-weekend">六</th>
+							<th class="content-table-head-weekend">日</th>
+						</tr>
+					</thead>
+					<tbody class="content-table-body">
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="calendar-right">
+			<p class="calendar-right-date"></p>
+			<p class="calendar-right-day"></p>
+			<p class="calendar-right-lunar"></p>
+			<div class="calendar-right-almanac">
+				<p class="almanac-suit">
+					<i>宜</i>
+				</p>
+				<p class="almanac-avoid">
+					<i>忌</i>
+				</p>
+			</div>
+			
+		</div>
+	</div>
+		
+	
+</body>
+</html>
