@@ -998,7 +998,7 @@ footer {
   nav {
     display: none;
   }
-
+/*
   footer {
     text-align: center;
     margin: 20px auto;
@@ -1007,4 +1007,5 @@ footer {
     bottom: auto;
     width: auto;
   }
+  */
 }
