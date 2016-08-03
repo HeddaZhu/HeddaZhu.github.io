@@ -52,9 +52,7 @@ rightout.onclick = function(){
 	alert(item);
 	rendarArray();
 }
-function delItem(target){
-	
-}
+
 //点击队列元素，将其删除
 queueShow.onclick = function(event){
 	var target = event?event.target:window.event.srcElement;	

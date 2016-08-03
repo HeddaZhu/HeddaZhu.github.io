@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试document.execCommand</title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			header{
+				margin-top:1px; 
+				height:100px;
+				border:1px solid green;
+				position: relative;
+			}
+			#right{
+				float: right;
+				margin-top:5px;
+				width: 200px;
+				border:1px solid red;
+			}
+			#left{
+				margin-top:5px;
+				height: 600px;
+				border:1px solid purple;
+				margin-right:210px; 
+			}
+			footer{
+				margin-top:5px;
+				border:1px solid black;
+				text-align:center;
+				clear: right;
+			}
+			#logo{
+		        margin: 5px;
+		        height:88px;
+		        width: 88px;
+				border:1px solid red;
+
+			}
+			#user{
+				position: absolute;
+				right: 5px;
+				bottom: 5px;
+		        width: 200px;
+				border:1px solid black;
+			}
+		</style>
+	</head> 
+	<body>
+	<!--
+<input type=button value=另存为 onclick=document.execCommand('Saveas',false,'e:\\test.htm')>
+-->
+	<header >
+		<div id="logo">logo</div>
+		<div id="user">用户名</div>
+	</header>
+	<div id="right">
+	aside-定宽200px
+	</div>
+	<div id="left"><p>content-自适应宽度</p></div>
+<footer><span>footer</span></footer>
+	</body>
+</html>

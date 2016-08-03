@@ -76,6 +76,7 @@ function renderChart() {
   var content = "",color ="";
   for (var date in chartData) {
     color = "#"+Math.floor(Math.random()*0xffffff).toString(16);
+    if (color) {}
     content += "<div title="+pageState.nowSelectCity+":"+date+":"+chartData[date]+" style='height:"+chartData[date]+"px;background-color:"+color+"'></div>";
   }
   document.getElementsByClassName("aqi-chart-wrap")[0].innerHTML = content;
