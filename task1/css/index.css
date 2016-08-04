@@ -5,9 +5,13 @@
 header{
    height: 100px;
 }
-header img{
+header img.logo{
 	float: left;
 	margin-left: 100px;
+}
+header img.logoGithub{
+	float: right;
+	margin-top: 50px;
 }
 header p{
 	padding-top:30px; 
@@ -51,4 +55,9 @@ section article ul li a{
 aside {
     top: 100px;
     
+}
+aside h1 {
+    border-left: 10px solid #29bcff;
+    color: #000;
+    line-height: 1.5em;
 }
