@@ -12,6 +12,7 @@ header img.logo{
 header img.logoGithub{
 	float: right;
 	margin-top: 50px;
+	margin-right:10px; 
 }
 header p{
 	padding-top:30px; 
