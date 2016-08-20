@@ -16,9 +16,10 @@ excerpt_separator: "```"
 
 
 
-**学习网站**： 1.[写作环境搭建(git+github+markdown+jekyll)](https://site.douban.com/196781/widget/notes/12161495/note/264946576/) ，感觉这篇blog汇总的比较全  
-           2.[搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html),感觉这位大神总能把一些东西表述的简单易懂，I like this！  
-           3.[使用Markdown](http://www.ituring.com.cn/article/23),入门级别
+**学习网站**： 
+1. [写作环境搭建(git+github+markdown+jekyll)](https://site.douban.com/196781/widget/notes/12161495/note/264946576/) ，感觉这篇blog汇总的比较全
+2. [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html),感觉这位大神总能把一些东西表述的简单易懂，I like this！
+3. [使用Markdown](http://www.ituring.com.cn/article/23),入门级别
 
 
 **博客布局**:参考 [liungkejin](https://github.com/liungkejin/liungkejin.github.io) 博客
