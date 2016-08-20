@@ -9,11 +9,13 @@ excerpt_separator: "```"
 
  github 博客开篇, 博客使用 [jekyll](http://jekyll.bootcss.com/) + [bootstrap](http://v3.bootcss.com) 搭建!
 
-感谢 [github](https://github.com) 提供的 Github Pages 功能!
+学习网站： [写作环境搭建(git+github+markdown+jekyll)](https://site.douban.com/196781/widget/notes/12161495/note/264946576/) ，感觉这篇blog汇总的比较全  
+           [搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html),感觉这位大神总能把一些东西表述的简单易懂，I like this！  
 
-此博客布局参考了 [Monkey Snatch Banana](http://www.monkeysnatchbanana.com/) 博客
 
-个人页面应用了 [resumecard](http://ddbullfrog.github.io/resumecard/) 项目
+博客布局参考 [liungkejin](https://github.com/liungkejin/liungkejin.github.io) 博客
+
+
 
 
 ```bash

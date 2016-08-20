@@ -2,7 +2,7 @@
 title: HeddaZhu Blog
 description: HeddaZhu Blog
 favicon: /assets/img/MissPuff.jpg
-baseurl: /HeddaZhu.github.io
+baseurl:
 url: https://heddazhu.github.io
 rss_url:
 
