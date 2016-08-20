@@ -24,15 +24,15 @@ Java是一种跨平台的编程语言，其源码(.java文件)被编译成与平
 选择`src`目录下的java文件，`ProGuard`只处理Java文件，`xml`类型的配置文件不会发生改变，所以注意那些应该保留类名的类,如下图：
 
 
-<img src="/assets/img/JavaConfusion/0.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/0.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/1.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/1.png" alt="图片无法正常显示">
 
 **只选择Java文件**
 
-<img src="/assets/img/JavaConfusion/2.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/2.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/3.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/3.png" alt="图片无法正常显示">
 
 #2.Proguard设置#
 
@@ -40,28 +40,28 @@ Java是一种跨平台的编程语言，其源码(.java文件)被编译成与平
 点击左边`input/output`菜单，然后点击右边的`Add input`按钮，添加需要混淆的jar包  
 然后点击`add output`,选择输出的路径和包名。  
 
-<img src="/assets/img/JavaConfusion/4.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/4.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/5.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/5.png" alt="图片无法正常显示">
 
 下面开始添加支持库，这个地方很重要，很多同学刚开始使用这个工具的时候就是这里老是出问题。  
 点击右边的`add`。
 
-<img src="/assets/img/JavaConfusion/6.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/6.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/7.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/7.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/8.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/8.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/9.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/9.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/10.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/10.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/11.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/11.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/12.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/12.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/13.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/13.png" alt="图片无法正常显示">
 
 在弹出的对话框中，输入要保存的配置文件名称，最后点击`保存`.  
 设置基本完成，关掉`proguard`窗口，找到刚刚保存的配置文件，开始手动修改部分配置，下面是我在原来文件上添加的：
@@ -118,21 +118,21 @@ public <methods>;
 手动设置完成后保存，然后重新打开`progrard`，执行`bin`目录下的`proguardgui.bat`。  
 点击第一个选项`Proguard`，再点击`Load configuration`，选择我们刚才保存的`.pro`文件进行加载。
 
-<img src="/assets/img/JavaConfusion/14.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/14.png" alt="图片无法正常显示">
 
 然后点击`Process`，然后点击`View configuration`查看是否是已经修改过后的配置文件
 
-<img src="/assets/img/JavaConfusion/15.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/15.png" alt="图片无法正常显示">
 
 确认是最新修改过的配置文件，然后点击`process！`开始混淆。
 
-<img src="/assets/img/JavaConfusion/16.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/16.png" alt="图片无法正常显示">
 
 用`jd-gui`反编译工具看看混淆后的效果。可以看到，之前设置不混淆的类都没有更换类名，而混淆的类都自动更换为`a,b,c`等类名了。到此，整个java项目混淆就成功了，然后把混淆成功的class文件拷贝到自己的web项目中，替换原先的class文件，然后用tomcat跑项目
 
-<img src="/assets/img/JavaConfusion/17.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/17.png" alt="图片无法正常显示">
 
-<img src="/assets/img/JavaConfusion/18.png" alt="图片无法正常显示">
+<img src="/assets/img/Java_Confusion/18.png" alt="图片无法正常显示">
 
 #3.配置总结#
 
