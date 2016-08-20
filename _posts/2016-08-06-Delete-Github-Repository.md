@@ -15,7 +15,7 @@ excerpt_separator: "2."
 
 <img src="/assets/img/del_repository_2.png"  alt="Settings设置"/>
 
-3.进到`Settings之后，点选左边菜单中的`Options`（一般默认也是这个选项），然后拉到最下，就可以看到`Delete this repository`了。
+3.进到`Settings`之后，点选左边菜单中的`Options`（一般默认也是这个选项），然后拉到最下，就可以看到`Delete this repository`了。
 
 
 <img src="/assets/img/del_repository_3.png"  alt="删除Repository"/>

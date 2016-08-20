@@ -18,7 +18,7 @@ Java是一种跨平台的编程语言，其源码(.java文件)被编译成与平
 
 接下来混淆项目：
 
-#1.源代码打包成jar文件#
+#1.源代码打包成jar文件
 
 
 选择`src`目录下的java文件，`ProGuard`只处理Java文件，`xml`类型的配置文件不会发生改变，所以注意那些应该保留类名的类,如下图：
@@ -34,7 +34,7 @@ Java是一种跨平台的编程语言，其源码(.java文件)被编译成与平
 
 <img src="/assets/img/Java_Confusion/3.png" alt="图片无法正常显示">
 
-#2.Proguard设置#
+#2.Proguard设置
 
 打开`progrard`，执行 `bin`目录下的`proguardgui.bat`  
 点击左边`input/output`菜单，然后点击右边的`Add input`按钮，添加需要混淆的jar包  
@@ -134,7 +134,7 @@ public <methods>;
 
 <img src="/assets/img/Java_Confusion/18.png" alt="图片无法正常显示">
 
-#3.配置总结#
+#3.配置总结
 
 `action包`、`service包`、`model包`，这几个包中的类都需要保留类名与方法名。  
 不混淆action包里面的类名、字段名、方法名是因为在界面上会用到这些字段和方法。  
