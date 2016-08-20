@@ -1,0 +1,74 @@
+# Author settings
+name: HeddaZhu
+title: 南开大学  计算机硕士
+address: 中国,天津
+email: honghai299@qq.com 
+github: HeddaZhu
+gavatar: /assets/img/MissPuff.jpg
+workHistory:
+- work3:
+  company: 上海大银幕网络科技有限公司
+  location: 中国，上海
+  title: Android 开发工程师
+  started: 2015
+  duration: (2015.10 - Present)
+  description: 开发和维护 "公证电影" App
+
+- work2:
+  company: 比亚迪精密制造上海分公司
+  location: 中国，上海
+  title: Android 开发工程师
+  started: 2014
+  duration: (2014.8 - 2015.8)
+  description: 在Android系统环境下修复所存在的 bug, 并开发新功能, 主要负责 RIL/Telephony
+
+- work1:
+  company: 合肥卓远电子科技有限公司
+  location: 中国, 合肥
+  title: Linux 程序员
+  started: 2013
+  duration: (2013.6 - 2013.9)
+  description: 在嵌入式 Linux 环境下开发程序 (信号发生器，监控摄像头)
+
+educationHistory:
+- education2:
+  organization: 南开大学
+  degree: 硕士
+  major: 计算机技术
+  started: 2015
+  duration: (2015.9 - 2017.7)
+  description: 研究过文本识别，开发信息系统，自学Android中。。。。
+
+- education1:
+  organization: 山东科技大学
+  degree: 学士
+  major: 信息管理与信息系统
+  started: 2011
+  duration: (2011.9 - 2015.7)
+  description: 计算机相关专业，学过C/C++、计算机网络、计算机操作系统、数据结构等
+languages:
+- language1:
+  name: 中文
+  proficiency: Native
+- language2:
+  name: English
+  proficiency: Limit
+programmingSkills:
+- Java:
+  name: Java/JavaWeb
+  percentage: 90%
+- Bash:
+  name: Bash Shell
+  percentage: 90%
+- CPP:
+  name: C/C++
+  percentage: 70%
+- PHP:
+  name: PHP
+  percentage: 30%
+- Python:
+  name: Python
+  percentage: 30%
+- Kotlin:
+  name: Kotlin
+  percentage: 70%
