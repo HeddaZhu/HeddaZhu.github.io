@@ -4,9 +4,11 @@ title: 图解HTTP学习笔记
 time: 2016年08月21日 星期日
 location: 天津
 pulished: true
-excerpt_separator: "若在握手过程中"
+excerpt_separator: "TCP三次握手"
 ---
 &#160; &#160; &#160; &#160; 偶然间在网上看到这本`《图解HTTP》`，虽然是Japanese写的书但是大家评价还不错，并且是图灵书，so就买来看了一下。不得不说，对于我这种不太了解http、计算机网络课也没怎么听的人来说，真是太赞了，amazing！这本书很cute，看起来不会困，^_^
+
+<img src="/assets/img/HTTP_Learning/book.png" alt="图解HTTP 上野·宣 于均良（译者）人民邮电出版社">
 
 ## TCP三次握手&四次挥手
 
