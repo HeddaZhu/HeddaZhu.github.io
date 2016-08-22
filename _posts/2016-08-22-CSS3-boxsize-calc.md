@@ -4,7 +4,7 @@ title: CSS3中的box-sizing与clac()
 time: 2016年08月22日 星期一
 location: 天津
 pulished: true
-excerpt_separator: "#### 示例"
+excerpt_separator: "语法"
 ---
 &#160; &#160; &#160; &#160;关于盒模型，在 IE6以前的版本中，IE盒模型跟其它浏览器不同，将 border 与 padding 都包含在 width 之内。而另外一些浏览器则与它相反，是不包括border和padding的。
 
@@ -115,7 +115,7 @@ div{
 	/*Standard */
 	calc();
  }
- ```
+```
  
 
 

@@ -4,7 +4,7 @@ title: 图解HTTP学习笔记之HTTP协议
 time: 2016年08月22日 星期一
 location: 天津
 pulished: true
-excerpt_separator: ""
+excerpt_separator: "`请求报文`"
 ---
 
 ## HTTP通信
