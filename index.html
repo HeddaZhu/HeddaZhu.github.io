@@ -2,7 +2,7 @@
 layout: blog_layout
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
 <article class="preview">
     <header>
         <h2 class="post-title">
