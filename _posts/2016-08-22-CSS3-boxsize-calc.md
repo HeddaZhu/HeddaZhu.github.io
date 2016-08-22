@@ -8,7 +8,7 @@ excerpt_separator: "#### 示例"
 ---
 &#160; &#160; &#160; &#160;关于盒模型，在 IE6以前的版本中，IE盒模型跟其它浏览器不同，将 border 与 padding 都包含在 width 之内。而另外一些浏览器则与它相反，是不包括border和padding的。
 
-# box-sizing
+# 1.box-sizing
 
 &#160; &#160; &#160; &#160;有时候，如果对页面中的大区域进行设置时，将border、padding计算到width和height之内，反而更灵活。但W3C的 CSS2.1规范却规定了他们并不能被包含其中。考虑到这个问题，css3中引入了一个新的属性：`box-sizing`，它具有`content-box`和`border-box`两个值。
 
@@ -69,9 +69,9 @@ div{
 }
 ```
 <img src="/assets/img/CSS3/boxsizing_1.png" alt="效果图">
+没有横向滚动条
 
-
-# calc()
+# 2.calc()
 
 &#160; &#160; &#160; &#160;使用`calc()`方法更是方便。
 
@@ -91,6 +91,7 @@ div{
   width: calc(expression);/*其中expression是一个表达式，用来计算长度的表达式。*/
 }
 ```
+
 ### calc()的运算规则
 
 &#160; &#160; &#160; &#160;calc()使用通用的数学运算规则，但是也提供更智能的功能：
@@ -116,6 +117,8 @@ div{
  }
  ```
 
+
+
 &#160; &#160; &#160; &#160;接上面例子。。。。。。
 
 &#160; &#160; &#160; &#160;知道总宽度是100%，在这个基础上减去boder的宽度（5px * 2 = 10px）,在减去padding的宽度（10px * 2 = 20px），即"100% - (10px + 5px) * 2 = 30px" ，最终得到的值就是div的width值：
@@ -135,9 +138,10 @@ div{
 <img src="/assets/img/CSS3/boxsizing_2.png" alt="效果图">
 
 
-[百度前端技术学院任务八：响应式网格（栅格化）布局](http://ife.baidu.com/task/detail?taskId=8)，做这个任务用到了，学习一下。最后的[代码地址](https://github.com/HeddaZhu/HeddaZhu.github.io/tree/master/task1/task8.html)[demo](https://heddazhu.github.io/task1/task8.html).
+&#160; &#160; &#160; &#160;[百度前端技术学院任务八：响应式网格（栅格化）布局](http://ife.baidu.com/task/detail?taskId=8)，做这个任务用到了，学习一下。最后的[代码地址](https://github.com/HeddaZhu/HeddaZhu.github.io/tree/master/task1/task8.html)和演示[demo](https://heddazhu.github.io/task1/task8.html)。
 
-学习网站：  
+学习网站：
+
 + [CSS3的calc()使用](http://www.w3cplus.com/css3/how-to-use-css3-calc-function.html)
 + [css3教程：box-sizing属性](http://www.rainleaves.com/html/1740.html)
 + [最后元素清除浮动](https://css-tricks.com/snippets/css/clear-fix/)
