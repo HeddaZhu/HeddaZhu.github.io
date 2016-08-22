@@ -28,11 +28,12 @@ header p a:hover{
 	text-decoration:underline;
 }
 section article ul{
+	position: relative;
 	margin: 0 auto;
 	padding: 10px 0px ;
 }
 section article ul li {
-
+	position: relative;
 	margin:10px; 
 	width: 300px;
     padding: 10px;
@@ -46,12 +47,19 @@ section article ul li {
 section article ul li:hover{
 	background-color:  #29bcff;
 }
-section article ul li:hover a {
+section article ul li:hover a ,section article ul li:hover a.code{
     color: white;
 }
 section article ul li a{
 	color: #000;
 	text-decoration:none;
+}
+section article ul li a.code{
+	color: #29bcff;
+	font-size: 0.8em;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
 aside {
     top: 100px;
