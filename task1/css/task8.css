@@ -9,7 +9,7 @@ body{
 div.wrapper{
 
 	padding: 0px 0px 0px 10px;
-	width: calc(100%-20px);
+	width: calc(100% - 20px);
 }
 div.wrapper:before,div.wrapper:after{
 	content: "";

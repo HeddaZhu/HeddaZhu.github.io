@@ -3,6 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<title>基础JavaScript练习（模拟队列）</title>
+	<style type="text/css">
+		#queueShow{
+			width: 1260px;
+			height: 500px;
+			border:1px solid #000;
+			display: -webkit-flex; /* Safari */
+  			display: flex;
+  			flex-flow:row nowrap;/*flex-direction:row; flex-wrap:nowrap;*/
+  			-webkit-justify-content: center; /* Safari */
+  			justify-content:         center;
+  			-webkit-align-items: flex-end; /* Safari */
+  			align-items:         flex-end;
+
+		}
+		.itemShow{
+			width: 20px;
+			margin-right: 1px; 
+			background-color: red;
+			font-size: 10px;
+			color: #fff;
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
 	<input type="text" name="number" value="" />
@@ -10,8 +33,11 @@
 	<button id="rightin">右侧入</button>
 	<button id="leftout">左侧出</button>
 	<button id="rightout">右侧出</button>
-	<p id="queueShow"></p>
-	<script type="text/javascript" src="./js/task18.js"></script>
+	<button id="bubbleSort">排序</button>
+	<div id="queueShow"></div>
+
+	
 	<script type="text/javascript" src="./js/task19.js"></script>
+
 </body> 
 </html>
