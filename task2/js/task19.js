@@ -38,7 +38,7 @@ leftin.onclick = function(){
 	var num = document.getElementsByName("number")[0].value;
 	if(checkNum(num)){
 		if (queueArray.length == 60) {
-			alert(num);
+			alert("输入数字:"+num+" 失败，数组最大长度为60！");
 			return;
 		}
 		queueArray.unshift(num)
@@ -50,7 +50,7 @@ rightin.onclick = function(){
 	var num = document.getElementsByName("number")[0].value;
 	if(checkNum(num)){
 		if (queueArray.length == 60) {
-			alert(num);
+			alert("输入数字:"+num+" 失败，数组最大长度为60！");
 			return;
 		}
 		queueArray.push(num);
@@ -60,12 +60,12 @@ rightin.onclick = function(){
 }
 leftout.onclick = function(){
 	var item =queueArray.shift();
-	alert(item);
+	alert("删除数字:"+item);
 	rendarArray();
 }
 rightout.onclick = function(){
 	var item =queueArray.pop();
-	alert(item);
+	alert("删除数字:"+item);
 	rendarArray();
 }
 

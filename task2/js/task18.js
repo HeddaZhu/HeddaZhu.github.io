@@ -44,12 +44,12 @@ rightin.onclick = function(){
 }
 leftout.onclick = function(){
 	var item =queueArray.shift();
-	alert(item);
+	alert("删除数字:"+item);
 	rendarArray();
 }
 rightout.onclick = function(){
 	var item =queueArray.pop();
-	alert(item);
+	alert("删除数字:"+item);
 	rendarArray();
 }
 
