@@ -52,8 +52,8 @@
 }
 
 nav {
-  border-bottom: 1px solid #ecf0f1;
-  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #3498db;
+  border-top: 1px solid #3498db;
   margin-bottom: 2em;
   text-align: center;
   max-width: 650px;
@@ -225,3 +225,20 @@ div.authorimage {
     font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L",sans-serif;
     margin-top: 40px;
 }
+#gotop {
+    position: fixed;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    bottom: 150px;
+    right: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background: rgba(0,0,0,.45);
+    -webkit-transition: background .8s ease-out;
+    -o-transition: background .8s ease-out;
+    transition: background .8s ease-out;
+    text-decoration: none;
+}
+

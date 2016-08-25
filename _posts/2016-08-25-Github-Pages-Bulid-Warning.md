@@ -44,4 +44,4 @@ If you have any questions you can contact us by replying to this email.
 
 
 
-&#160; &#160; &#160; &#160;之前clone jekyll模板的时候在项目中有个CNAME文件，刚开始不知道它的而作用就保留了。我还没有申请域名，现在看来这个文件不仅unnecessary而且是culprit。删除这个文件就没有警告了。O(∩_∩)O
+&#160; &#160; &#160; &#160;之前clone jekyll模板的时候在项目中有个CNAME文件，刚开始不知道它的而作用就保留了。我还没有申请域名，现在看来这个文件不仅unnecessary而且是trouble maker。删除这个文件就没有警告了。O(∩_∩)O

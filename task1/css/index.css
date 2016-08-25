@@ -52,7 +52,7 @@ section article ul li:hover a ,section article ul li:hover a.code{
     color: white;
 }
 section article ul li span{
-	font-size: 0.5em;
+	font-size: 0.8em;
 	color: #f0ad4e;
 	position: absolute;
 	top: -5px;
@@ -61,9 +61,9 @@ section article ul li span{
 section article ul li a{
 	color: #000;
 	text-decoration:none;
-	 white-space:nowrap;
-	 overflow:hidden;
-	 text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
 }
 section article ul li a.code{
 	color: #29bcff;
