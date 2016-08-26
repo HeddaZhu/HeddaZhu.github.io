@@ -244,7 +244,7 @@ div.authorimage {
 #gotop:hover{
     background:rgba(0,0,0,.75)
 }
-.glyphicon {
+.glyphicon{
     position: relative;
     top: 1px;
     display: inline-block;
@@ -255,7 +255,7 @@ div.authorimage {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-#gotop .up-icon {
+#gotop .up-icon{
     display: inline-block;
     width: 100%;
     font-size: 24px;

@@ -4,7 +4,7 @@ title: 关键词提取&百度搜索结果
 time: 2016年08月26日 星期五
 location: 天津
 pulished: true
-excerpt_separator: "语法"
+excerpt_separator: "## 2.百度搜索结果的抓取"
 description: "关键词提取，抓取百度搜索结果"
 ---
 [项目代码在Github上](https://github.com/HeddaZhu/KeywordSearch)
