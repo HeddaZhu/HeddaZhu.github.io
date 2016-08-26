@@ -46,14 +46,16 @@ description: "关键词提取，抓取百度搜索结果"
 #### 提取页面上的链接(正则表达式或者jsoup)
 
 &#160; &#160; &#160; &#160;引用需要的包 ：
+
 ```
-- chardet.jar
-- commons-lang.jar
-- commons-logging.jar
-- cpdetector.jar
-- httpclient-4.2.5.jar
-- httpcore-4.2.4.jar
-- jsoup-1.7.2.jar
+- chardet.jar  
+- commons-lang.jar  
+- commons-logging.jar   
+- cpdetector.jar  
+- httpclient-4.2.5.jar   
+- httpcore-4.2.4.jar   
+- jsoup-1.7.2.jar     
+
 ```
 
 ## 3.程序运行说明
