@@ -1,11 +1,11 @@
 ---
 layout: post_layout
-title: 百度面试-前端开发
+title: 面试-前端开发
 time: 2016年08月31日 星期三
 location: 天津
 pulished: true
-excerpt_separator: "## 2.百度搜索结果的抓取"
-description: "百度面试，前端开发"
+excerpt_separator: "CSS样式优先级"
+description: "面试，前端开发"
 ---
 &#160; &#160; &#160; &#160;第一次面技术，内心是万分忐忑呀！！早上起得比较早，一天都用来赶路，面试下午两点开始，一点精神都没有。
 
