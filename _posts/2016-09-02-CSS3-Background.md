@@ -4,7 +4,7 @@ title: CSS3入门
 time: 2016年09月01日 星期四
 location: 天津
 pulished: true
-excerpt_separator: "## 一、CSS3边框"
+excerpt_separator: "结果如下"
 description: "css3入门"
 ---
 
@@ -26,6 +26,7 @@ description: "css3入门"
     background-repeat: no-repeat;
     padding:15px;
 }
+结果如下：
 
 ```
 <img src="/assets/img/CSS3/background_size_1.png" alt="图像无法显示">
