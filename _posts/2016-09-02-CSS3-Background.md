@@ -19,6 +19,8 @@ css3 主要模块：
 + 多列布局
 + 用户界面        ......
 
+------
+
 ## <span id="ChapterBackground">二、CSS3背景</span>
 
 background属性：
@@ -31,6 +33,7 @@ background-image|为一个元素指定一个或多个背景图片
 background-origin|指定背景图片的位置
 background-size|指定背景图片的大小
 
+&#160;
 
 三个主要属性：
 
