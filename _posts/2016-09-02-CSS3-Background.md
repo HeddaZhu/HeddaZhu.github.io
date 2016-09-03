@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: CSS3入门
-time: 2016年09月01日 星期四
+time: 2016年09月02日 星期五
 location: 天津
 pulished: true
 excerpt_separator: "结果如下"
