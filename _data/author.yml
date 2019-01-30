@@ -45,7 +45,7 @@ educationHistory:
   major: 计算机技术
   started: 2015
   duration: (2015.9 - 2017.7)
-  description: 研究过文本识别，开发信息系统，自学Android中。。。。
+  description: 研究过文本识别，开发过管理信息系统
 
 - education1:
   organization: 山东科技大学
@@ -70,7 +70,10 @@ programmingSkills:
   percentage: 90%
 - JavaScript:
   name: JavaScript
-  percentage: 70%
+  percentage: 90%
+- VUE:
+  name: VUE
+  percentage: 90%
 - CPP:
   name: C/C++
   percentage: 70%
